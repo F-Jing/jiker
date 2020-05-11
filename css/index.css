@@ -1,0 +1,394 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.body {
+    width: 100%;
+    height: 2430px;
+    background: rgba(248, 250, 252, 1);
+    margin: 0 auto;
+}
+
+.page-header {
+    width: 1440px;
+    height: 60px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
+}
+
+.header-layout {
+    position: relative;
+    width: 1080px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    width: 54px;
+    height: 37px;
+    clip: rect(2px 52px 35px 2px);
+}
+
+.header-text {
+    position: absolute;
+    width: 340px;
+    height: 15px;
+    left: 86px;
+    font-size: 0px;
+}
+
+.header-text-a {
+    display: inline-block;
+    font-size: 15px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #333;
+    line-height: 15px;
+    vertical-align: top;
+    word-spacing: 15px;
+    padding-right: 33px;
+}
+
+.decoration {
+    color: #006EDA;
+}
+
+.line {
+    position: absolute;
+    width: 28px;
+    height: 3px;
+    background: rgba(0, 110, 218, 1);
+    border-radius: 3px;
+    left: 87px;
+    top: 44px;
+    bottom: 13px;
+}
+
+.portrait {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    clip: rect(2px 32px 32px 2px);
+    right: 0px;
+}
+
+.page-mainer {
+    width: 1440px;
+    height: 2330px;
+    margin: 0 auto;
+}
+
+.mainer-layout {
+    width: 1096px;
+    height: 2330px;
+    margin: 0px auto;
+}
+
+.master-graph-layout {
+    margin: 20px 8px;
+}
+
+.camp-layout {
+    height: 420px;
+    width: 1096px;
+}
+
+.camp-head-layout,
+.course-head-layout,
+.project-head-layout,
+.experiment-head-layout {
+    height: 84px;
+    width: 1096px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -8px;
+}
+
+.camp-head-title,
+.course-head-title,
+.project-head-title,
+.experiment-head-title {
+    width: 60px;
+    height: 20px;
+    font-size: 20px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: Medium;
+    color: #333333;
+    line-height: 20px;
+}
+
+.project-head-title {
+    width: 80px;
+}
+
+.course-head-title,
+.experiment-head-title {
+    width: 40px;
+}
+
+.camp-head-subtitle,
+.course-head-subtitle,
+.project-head-subtitle,
+.experiment-head-subtitle {
+    width: 154px;
+    height: 14px;
+    font-size: 14px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(102, 102, 102, 1);
+    line-height: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.camp-main-layout {
+    width: 1096px;
+    height: 332px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.camp-main-contain-layout {
+    width: 532px;
+    height: 150px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+    margin: 8px;
+    display: flex;
+    position: relative;
+}
+
+.camp-text {
+    position: absolute;
+    width: 240px;
+    height: 94px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 30px;
+    top: 28px;
+    bottom: 28px;
+}
+
+.camp-text-title {
+    width: 240px;
+    height: 20px;
+    font-size: 20px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    line-height: 20px;
+}
+
+.camp-text-main {
+    width: 215px;
+    height: 40px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+}
+
+.camp-text-foot {
+    width: 139px;
+    height: 12px;
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #666666;
+    line-height: 12px;
+}
+
+.ice {
+    color: #006EDA;
+}
+
+.camp-photo {
+    position: absolute;
+    top: 25px;
+    right: 49px;
+}
+
+.course-layout {
+    width: 1096px;
+    height: 596px;
+}
+
+.course-main-layout {
+    width: 1096px;
+    height: 512px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.course-main-contain-layout {
+    width: 258px;
+    height: 240px;
+    margin: 8px;
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
+    position: relative;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
+}
+
+.course-photo {
+    clip: rect(0px 258px 139px 0px);
+}
+
+.course-text-main {
+    width: 226px;
+    height: 40px;
+    font-size: 15px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: 22px;
+    position: absolute;
+    bottom: 48px;
+    margin: 0 16px;
+}
+
+.course-text-foot {
+    width: 226px;
+    height: 12px;
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+    line-height: 12px;
+    position: absolute;
+    bottom: 17px;
+    margin: 0px 16px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.person {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+}
+
+.project-layout {
+    /* width: 1096px; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.project-main-layout {
+    width: 1096px;
+    height: 272px;
+    font-size: 0px;
+
+}
+
+.project-text-layout {
+    width: 203px;
+    height: 120px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+    margin: 8px;
+    position: relative;
+    display: inline-block;
+}
+
+.project-text-main {
+    position: absolute;
+    left: 16px;
+    top: 22px;
+    width: 169px;
+    height: 40px;
+    font-size: 15px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: 22px;
+    text-align: center;
+}
+
+.project-text-foot {
+    width: 203px;
+    height: 36px;
+    background: rgba(131, 140, 161, 1);
+    border-radius: 0px 0px 5px 5px;
+    bottom: 0px;
+    position: absolute;
+    text-align: center;
+    font-size: 13px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: 36px;
+}
+
+.project-special {
+    background-color: #006EDA;
+}
+
+.experiment-main-layout {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.experiment-contain-layout {
+    width: 203px;
+    height: 210px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+    margin: 8px;
+    position: relative;
+}
+
+.experiment-text-main {
+    width: 169px;
+    height: 40px;
+    font-size: 15px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: 22px;
+    position: absolute;
+    left: 16px;
+    top: 122px;
+}
+
+.experiment-text-foot {
+    width: 169px;
+    height: 7px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+    line-height: 12px;
+    position: absolute;
+    left: 16px;
+    bottom: 17px;
+}
+
+.page-footer {
+    width: 1440px;
+    height: 40px;
+    background: rgba(51, 55, 68, 1);
+    text-align: center;
+    margin: 0 auto;
+}
+.page-footer-layout{
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 40px;
+}

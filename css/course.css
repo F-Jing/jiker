@@ -1,0 +1,347 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+body {
+  width: 1440px;
+  max-width: 1440px;
+  height: 1401px;
+  background: rgba(248, 250, 252, 1);
+  position: relative;
+  margin: 0 auto;
+}
+
+.header-contain {
+  width: 1440px;
+  height: 60px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+.header-logo {
+  position: absolute;
+  left: 180px;
+  top: 11px;
+}
+
+.header-text {
+  width: 275px;
+  height: 15px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 269px;
+  top: 21px;
+}
+
+.header-text-a {
+  font-size: 15px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  line-height: 15px;
+}
+
+.portrait {
+  width: 34px;
+  height: 34px;
+  clip: rect(2px 32px 32px 2px);
+  position: absolute;
+  right: 180px;
+  top: 15px;
+}
+
+.decoration {
+  color: #35B558;
+}
+
+.line {
+  width: 28px;
+  height: 3px;
+  background: rgba(53, 181, 88, 1);
+  border-radius: 3px;
+  position: absolute;
+  top: 44px;
+  left: 415px;
+}
+
+.page-mainer-contain-left {
+  width: 250px;
+  height: 1079px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.04);
+  border-radius: 5px;
+  position: absolute;
+  left: 180px;
+  top: 80px;
+}
+
+.preface {
+  font-size: 16px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  line-height: 16px;
+  padding-top: 24px;
+  padding-left: 16px;
+}
+
+.preface:not(:first-child) {
+  padding-top: 40px;
+}
+
+.preface-branch {
+  margin-left: 16px;
+  font-size: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.preface-branch-text {
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+  line-height: 14px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.go {
+  display: inline-block;
+  padding-right: 34px;
+}
+
+.page-mainer-contain-top {
+  width: 806px;
+  height: 46px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.04);
+  border-radius: 3px;
+  position: absolute;
+  left: 274px;
+  top: 0px;
+}
+
+.java {
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+  line-height: 14px;
+  position: absolute;
+  top: 16px;
+  left: 20px;
+}
+
+.mainer-top-line {
+  width: 1px;
+  height: 12px;
+  background: rgba(153, 153, 153, 1);
+  position: absolute;
+  top: 17px;
+  left: 66px;
+}
+
+.overview {
+  width: 181px;
+  height: 12px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 17px;
+  left: 83px;
+}
+
+.mainer-top-text,
+.mainer-top-grade,
+.mainer-top-new {
+  font-size: 12px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+  line-height: 12px;
+}
+
+.arrow-one,
+.arrow-two {
+  width: 8px;
+  height: 4px;
+  color: #666666;
+}
+
+.mainer-top-grade-contain,
+.mainer-top-new-contain {
+  width: 61px;
+  height: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainer-top-new-contain {
+  width: 37px;
+  position: absolute;
+  top: 17px;
+  left: 739px;
+}
+
+.mainer-top-grade-contain {
+  position: absolute;
+  top: 17px;
+  left: 648px;
+}
+
+.page-mainer-contain-middle {
+  width: 822px;
+  height: 1033px;
+  position: absolute;
+  top: 52px;
+  left: 266px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.course-main-contain-layout {
+  width: 258px;
+  height: 240px;
+  margin: 8px;
+  align-items: center;
+  position: relative;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
+}
+
+.course-photo {
+  clip: rect(0px 258px 139px 0px);
+}
+
+.course-text-main {
+  width: 226px;
+  height: 40px;
+  font-size: 15px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+  line-height: 22px;
+  position: absolute;
+  bottom: 48px;
+  margin: 0 16px;
+}
+
+.course-text-foot {
+  width: 226px;
+  height: 12px;
+  font-size: 12px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+  line-height: 12px;
+  position: absolute;
+  bottom: 17px;
+  margin: 0px 16px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.person {
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+}
+
+.page-mainer-contain-right {
+  width: 100px;
+  height: 230px;
+  position: absolute;
+  top: 0px;
+  left: 1096px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.04);
+  border-radius: 2px;
+}
+
+.mainer-right-text-contain {
+  width: 48px;
+  height: 230px;
+  font-size: 12px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+  line-height: 46px;
+  margin-left: 18px;
+}
+
+.page-footer-contain {
+  margin-left: 482px;
+  position: absolute;
+  bottom: 170px;
+}
+
+.page-footer-text-contain {
+  width: 740px;
+  font-size: 0px;
+}
+
+.page-footer-text {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  font-size: 12px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+  line-height: 12px;
+  background: rgba(255, 255, 255, 1);
+  margin-right: 5px;
+  text-align: center;
+  line-height: 32px;
+
+}
+
+.page {
+  width: 50px;
+}
+
+.last-page {
+  width: 72px;
+}
+
+.one-page {
+  background: rgba(53, 181, 88, 1);
+  color: #FFFFFF;
+}
+
+.period {
+  display: inline-block;
+  color: rgba(51, 51, 51, 1);
+  background-color: transparent;
+  height: auto;
+  width: auto;
+  margin: 0px 7px;
+}
+.period-seven{
+  margin: 0px 15px;
+  color: rgba(51, 51, 51, 1);
+  background-color: transparent;
+}
+.period-one{
+  margin: 0px 2px;
+}
+.define{
+  margin-left: 3px;
+}
+.period-one, .define{
+  color: #333333;
+  width: 32px;
+  height: 22px;
+  background-color: rgba(255, 255, 255, 1);
+  line-height: 22px;
+}
+
+.dot{
+  background-color: transparent;
+}

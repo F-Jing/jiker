@@ -1,0 +1,370 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body {
+    width: 1920px;
+    height: 1817px;
+    background-color: #F5F5F5;
+    position: relative;
+}
+
+.page-header {
+    width: 1919.9px;
+    height: 65.9px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.page-header-logo {
+    position: absolute;
+    top: 11px;
+    left: 483px;
+}
+
+.page-header-text {
+    width: 100%;
+    position: absolute;
+    left: 619px;
+}
+
+.text {
+    line-height: 65.9px;
+    display: inline-block;
+    font-size: 18px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: rgba(62, 58, 58, 1);
+    padding-right: 26px;
+}
+
+.text-decoration {
+    color: #4F6FDA;
+}
+
+.blue-line {
+    width: 40px;
+    height: 6px;
+    background: rgba(79, 111, 218, 1);
+    position: absolute;
+    left: 769px;
+    top: 61px;
+}
+
+.page-header-text-nav {
+    min-width: 800px;
+    display: flex;
+    position: absolute;
+    left: 460px;
+    top: 95px;
+}
+
+.text-nav {
+    font-size: 16px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: rgba(70, 109, 225, 1);
+}
+
+.text-decoration-nav {
+    color: #707070;
+}
+
+.arrow {
+    width: 9px;
+    height: 8px;
+    font-size: 16px;
+    font-family: SourceHanSansCN;
+    font-weight: 400;
+    color: rgba(112, 112, 112, 1);
+    padding: 0px 15px;
+}
+
+.course-detail {
+    height: 300px;
+    width: 1000px;
+    position: absolute;
+    left: 460px;
+    top: 139px;
+    background-color: #FFFFFF;
+}
+
+.course-detail-img-location {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    width: 400px;
+    height: 240px;
+}
+
+.course-detail-text-head {
+    width: 393px;
+    height: 23px;
+    font-size: 24px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    position: absolute;
+    top: 35px;
+    left: 451px;
+}
+
+.course-detail-text-main {
+    width: 515px;
+    height: 40px;
+    font-size: 16px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+    line-height: 24px;
+    position: absolute;
+    left: 451px;
+    top: 81px;
+    line-height: 20px;
+}
+
+.course-detail-text-foot {
+    width: 170px;
+    height: 74px;
+    position: absolute;
+    bottom: 33px;
+    left: 451px;
+    font-size: 0px;
+}
+
+.course-period,
+.course-time,
+.course-number {
+    font-size: 14px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: rgba(153, 153, 153, 1);
+    line-height: 14px;
+    height: 14px;
+    vertical-align: top;
+}
+
+.course-time,
+.course-number {
+    margin-top: 16px;
+}
+
+.start-learning {
+    width: 180px;
+    height: 50px;
+    background: rgba(70, 109, 225, 1);
+    border: none;
+    font-size: 18px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+.catalog-container {
+    width: 700px;
+    height: 1280px;
+    background: rgba(255, 255, 255, 1);
+    position: absolute;
+    left: 0px;
+    top: 320px;
+    vertical-align: top;
+    font-size: 0px;
+}
+
+.catalog-text-chapter {
+    width: 152px;
+    height: 16px;
+    font-size: 16px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    line-height: 16px;
+    padding: 32px 518px 12px 30px;
+}
+
+.catalog-text-subsection {
+    width: 600px;
+}
+
+.catalog-text-subsection-container {
+    width: 600px;
+    height: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    font-size: 0px;
+}
+
+.catalog-text-subsection-container-one {
+    width: 600px;
+    height: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 50px;
+    font-size: 0px;
+}
+
+.decoration {
+    background-color: #F6F8FD;
+}
+
+.catalog-text-subsection-left {
+    font-size: 14px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+    line-height: 14px;
+}
+
+.icon-play {
+    width: 16px;
+    height: 16px;
+}
+
+.text-left-top-container {
+    width: 280px;
+    height: 440px;
+    background: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 0px;
+    left: 720px;
+    font-size: 0px;
+}
+
+.text-left-course,
+.text-left-core,
+.text-left-difficulty,
+.text-left-suit {
+    font-size: 16px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    line-height: 16px;
+    margin-top: 22px;
+    margin-left: 30px;
+}
+
+.sample {
+    font-size: 14px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: rgba(114, 113, 113, 1);
+    line-height: 20px;
+}
+
+.text-left-course-info,
+.text-left-core-info,
+.text-left-suit-info {
+    width: 217px;
+    font-size: 14px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: rgba(114, 113, 113, 1);
+    line-height: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    text-align: justify;
+    /* text-justify: inter-ideograph; */
+}
+
+.text-left-bottom-container {
+    width: 280px;
+    height: 380px;
+    background: rgba(255, 255, 255, 1);
+
+}
+
+.text-left-bottom-main {
+    width: 65px;
+    height: 16px;
+    font-size: 16px;
+    font-family: SourceHanSansCN;
+    font-weight: bold;
+    color: rgba(51, 51, 51, 1);
+}
+
+.text-left-bottom-container {
+    width: 280px;
+    height: 380px;
+    background: rgba(255, 255, 255, 1);
+    position: absolute;
+    left: 720px;
+    top: 460px;
+}
+
+.text-left-bottom-main {
+    font-size: 16px;
+    font-family: SourceHanSansCN;
+    font-weight: bold;
+    color: rgba(51, 51, 51, 1);
+    line-height: 16px;
+    margin-top: 22px;
+    margin-left: 30px;
+}
+
+.text-left-bottom-container-info {
+    width: 220px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    margin-left: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.text-left-bottom-img {
+    width: 90px;
+    height: 60px;
+}
+
+.text-left-bottom-info {
+    width: 116px;
+    height: 31px;
+    font-size: 14px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+    line-height: 15.5px;
+    position: absolute;
+    left: 101px;
+    top: 7px;
+}
+
+.page-footer-container {
+    width: 1920px;
+    height: 40px;
+    background: rgba(51, 51, 51, 1);
+    position: absolute;
+    bottom: 0px;
+}
+
+.footer-text-container {
+    height: 40px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 460px;
+}
+
+.footer-text-left {
+    font-size: 12px;
+    font-family: SourceHanSansCN;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+
+}
+
+.footer-text-right {
+    width: 299px;
+    height: 13px;
+    font-size: 12px;
+    font-family: SourceHanSansCN;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+}
