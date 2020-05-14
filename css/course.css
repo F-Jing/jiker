@@ -5,39 +5,52 @@
 }
 
 body {
-  width: 1440px;
-  max-width: 1440px;
-  height: 1401px;
+  width: 100%;
+  height: 1400px;
   background: rgba(248, 250, 252, 1);
   position: relative;
-  margin: 0 auto;
+
 }
 
-.header-contain {
-  width: 1440px;
+.page-header {
+  width: 100%;
   height: 60px;
   background: rgba(255, 255, 255, 1);
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
   position: relative;
+
+}
+
+.page-header-container {
+  width: 1080px;
+  height: inherit;
+  margin: 0 auto;
+  font-size: 0px;
+  position: relative;
 }
 
 .header-logo {
-  position: absolute;
-  left: 180px;
-  top: 11px;
+  padding-top: 10px;
+  width: 56px;
+  height: 39px;
 }
 
-.header-text {
+.header-nav-container {
+  display: inline-block;
   width: 275px;
-  height: 15px;
+  /* min-width: 275px; */
+  padding-top: 21px;
+  margin-left: 33px;
+  vertical-align: top;
+}
+
+.header-nav {
   display: flex;
   justify-content: space-between;
-  position: absolute;
-  left: 269px;
-  top: 21px;
+  list-style: none;
 }
 
-.header-text-a {
+.header-nav-item {
   font-size: 15px;
   font-family: PingFangSC-Medium, PingFang SC;
   font-weight: 500;
@@ -45,226 +58,227 @@ body {
   line-height: 15px;
 }
 
+.header-nav-item-more {
+  color: #35B558;
+}
+
+.header-nav-underline {
+  width: 28px;
+  height: 3px;
+  background: rgba(53, 181, 88, 1);
+  border-radius: 3px;
+  margin: 8px auto 0px;
+}
+
 .portrait {
   width: 34px;
   height: 34px;
   clip: rect(2px 32px 32px 2px);
   position: absolute;
-  right: 180px;
-  top: 15px;
+  float: right;
+  right: 0px;
+  margin: 13px 0;
 }
 
-.decoration {
-  color: #35B558;
+.main-section {
+  width: 1080px;
+  height: 1080px;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-size: 0px;
+  position: relative;
 }
 
-.line {
-  width: 28px;
-  height: 3px;
-  background: rgba(53, 181, 88, 1);
-  border-radius: 3px;
-  position: absolute;
-  top: 44px;
-  left: 415px;
-}
-
-.page-mainer-contain-left {
+.main-align-left {
   width: 250px;
   height: 1079px;
   background: rgba(255, 255, 255, 1);
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.04);
   border-radius: 5px;
-  position: absolute;
-  left: 180px;
-  top: 80px;
+  font-size: 0px;
+  float: left;
 }
 
-.preface {
+.left-container {
+  margin-left: 16px;
+  font-size: 0px;
+}
+
+.main-left-title {
+  height: 16px;
+  padding-top: 24px;
   font-size: 16px;
+  line-height: 16px;
   font-family: PingFangSC-Medium, PingFang SC;
   font-weight: 500;
   color: rgba(51, 51, 51, 1);
-  line-height: 16px;
-  padding-top: 24px;
-  padding-left: 16px;
 }
 
-.preface:not(:first-child) {
-  padding-top: 40px;
-}
-
-.preface-branch {
-  margin-left: 16px;
-  font-size: 0px;
+.main-left-list {
+  padding: 14px 0px 6px 0px;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 4px;
 }
 
-.preface-branch-text {
+.main-left-list-item {
   font-size: 14px;
+  line-height: 14px;
   font-family: PingFangSC-Regular, PingFang SC;
   font-weight: 400;
   color: rgba(102, 102, 102, 1);
-  line-height: 14px;
   padding-right: 20px;
-  padding-top: 10px;
+  padding-bottom: 10px;
+  list-style: none;
+}
+.main-left-list-item-more{
+  color: #35B558;
+}
+.go{
+  padding-right: 60px;
 }
 
-.go {
+
+.main-align-top {
   display: inline-block;
-  padding-right: 34px;
-}
-
-.page-mainer-contain-top {
   width: 806px;
   height: 46px;
   background: rgba(255, 255, 255, 1);
   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.04);
   border-radius: 3px;
-  position: absolute;
-  left: 274px;
-  top: 0px;
+  margin-left: 24px;
+  font-size: 0px;
+  vertical-align: top;
 }
 
-.java {
+.jav {
+  display: inline-block;
+  width: 34px;
   font-size: 14px;
   font-family: PingFangSC-Regular, PingFang SC;
   font-weight: 400;
   color: rgba(51, 51, 51, 1);
   line-height: 14px;
-  position: absolute;
-  top: 16px;
-  left: 20px;
+  padding: 16px 0px 16px 20px;
+  vertical-align: top;
 }
 
-.mainer-top-line {
+.main-top-line {
+  display: inline-block;
   width: 1px;
   height: 12px;
   background: rgba(153, 153, 153, 1);
-  position: absolute;
-  top: 17px;
-  left: 66px;
+  margin: 17px 0px 17px 13px;
+  vertical-align: top;
 }
 
-.overview {
-  width: 181px;
+.main-top-list-container {
+  display: inline-block;
+  width: 180px;
   height: 12px;
+  padding: 17px 0px 17px 16px;
+}
+
+.main-top-list {
   display: flex;
   justify-content: space-between;
-  position: absolute;
-  top: 17px;
-  left: 83px;
+  width: 180px;
+  height: 12px;
 }
 
-.mainer-top-text,
-.mainer-top-grade,
-.mainer-top-new {
+.main-top-list-item {
+  list-style: none;
+  display: inline-block;
   font-size: 12px;
+  line-height: 12px;
   font-family: PingFangSC-Regular, PingFang SC;
   font-weight: 400;
   color: rgba(102, 102, 102, 1);
-  line-height: 12px;
 }
 
-.arrow-one,
-.arrow-two {
-  width: 8px;
-  height: 4px;
-  color: #666666;
-}
-
-.mainer-top-grade-contain,
-.mainer-top-new-contain {
-  width: 61px;
+.main-top-choice {
   height: 12px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding: 17px 30px 17px 0px;
+  float: right;
+  font-size: 0px;
 }
 
-.mainer-top-new-contain {
-  width: 37px;
-  position: absolute;
-  top: 17px;
-  left: 739px;
+.main-top-info {
+  display: inline-block;
+  height: 12px;
+  font-size: 12px;
+  line-height: 12px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
 }
 
-.mainer-top-grade-contain {
-  position: absolute;
-  top: 17px;
-  left: 648px;
+.arrow {
+  display: inline-block;
+  width: 8px;
+  padding-left: 5px;
 }
 
-.page-mainer-contain-middle {
+.main-align-middle {
   width: 822px;
   height: 1033px;
-  position: absolute;
-  top: 52px;
-  left: 266px;
   display: flex;
   flex-wrap: wrap;
+  float: right;
+  margin-right: -8px;
+  padding-top: 8px;
 }
 
-.course-main-contain-layout {
+.middle-container {
   width: 258px;
   height: 240px;
   margin: 8px;
   align-items: center;
-  position: relative;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
 }
 
-.course-photo {
+.middle-img {
   clip: rect(0px 258px 139px 0px);
 }
 
-.course-text-main {
+.middle-info {
   width: 226px;
   height: 40px;
   font-size: 15px;
+  line-height: 20px;
   font-family: PingFangSC-Regular, PingFang SC;
   font-weight: 400;
   color: rgba(51, 51, 51, 1);
-  line-height: 22px;
-  position: absolute;
-  bottom: 48px;
-  margin: 0 16px;
+  margin: 13px 16px 0px 16px;
 }
 
-.course-text-foot {
+.middle-note {
   width: 226px;
   height: 12px;
   font-size: 12px;
+  line-height: 12px;
   font-family: PingFangSC-Regular, PingFang SC;
   font-weight: 400;
   color: rgba(102, 102, 102, 1);
-  line-height: 12px;
-  position: absolute;
-  bottom: 17px;
-  margin: 0px 16px;
+  margin: 19px 16px 0px 16px;
   display: inline-block;
-  vertical-align: top;
 }
 
-.person {
-  display: inline-block;
-  position: absolute;
-  right: 0px;
+.middle-icon-right {
+  float: right;
 }
 
-.page-mainer-contain-right {
+.sidebar-section {
+  display: inline-block;
   width: 100px;
   height: 230px;
-  position: absolute;
-  top: 0px;
-  left: 1096px;
   background: rgba(255, 255, 255, 1);
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.04);
   border-radius: 2px;
+  position: absolute;
+  right: -116px;
 }
 
-.mainer-right-text-contain {
+.sidebar-container {
   width: 48px;
   height: 230px;
   font-size: 12px;
@@ -273,20 +287,22 @@ body {
   color: rgba(102, 102, 102, 1);
   line-height: 46px;
   margin-left: 18px;
-}
-
-.page-footer-contain {
-  margin-left: 482px;
   position: absolute;
-  bottom: 170px;
 }
 
-.page-footer-text-contain {
+.page-footer-container {
+  
+}
+
+.footer-list {
   width: 740px;
   font-size: 0px;
+  padding-left: 302px;
+  padding-top: 40px;
+  margin: 0 auto;
 }
 
-.page-footer-text {
+.footer-list-item {
   display: inline-block;
   width: 32px;
   height: 32px;
@@ -302,7 +318,7 @@ body {
 
 }
 
-.page {
+.home-page, .next-page, .end-page{
   width: 50px;
 }
 
@@ -315,7 +331,7 @@ body {
   color: #FFFFFF;
 }
 
-.period {
+.period, .page {
   display: inline-block;
   color: rgba(51, 51, 51, 1);
   background-color: transparent;
@@ -323,25 +339,32 @@ body {
   width: auto;
   margin: 0px 7px;
 }
-.period-seven{
+
+.all-page {
   margin: 0px 15px;
   color: rgba(51, 51, 51, 1);
   background-color: transparent;
 }
-.period-one{
+
+.period-one {
   margin: 0px 2px;
 }
-.define{
-  margin-left: 3px;
-}
-.period-one, .define{
+
+
+
+.period-one,
+.define {
   color: #333333;
   width: 32px;
   height: 22px;
   background-color: rgba(255, 255, 255, 1);
   line-height: 22px;
 }
+.define {
+  margin-left: 3px;
+  color: #999999;
+}
 
-.dot{
+.dot {
   background-color: transparent;
 }

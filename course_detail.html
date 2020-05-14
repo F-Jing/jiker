@@ -9,223 +9,186 @@
 
 <body>
   <header class="page-header">
-    <div class="page-header-layout">
-      <img class="page-header-logo" src="./img/课程详情页_slices/图层 1059.png">
-      <div class="page-header-text">
-        <div class="text">首页</div>
-        <div class="text">实战营</div>
-        <div class="text"><span class="text-decoration">课程</span></div>
-        <div class="text">项目</div>
-        <div class="text">实验</div>
-      </div>
-      <div class="blue-line"></div>
+    <div class="header-container">
+      <img class="header-logo" src="./img/course-detail/logo.png">
+      <ul class="header-nav">
+        <li class="nav-item">首页</li>
+        <li class="nav-item">实战营</li>
+        <li class="nav-item"><span class="nav-item-more">课程</span></li>
+        <li class="nav-item">项目</li>
+        <li class="nav-item">实验</li>
+      </ul>
     </div>
   </header>
   <div class="page-mainer">
-    <div class="page-header-text-nav">
-      <div class="text-nav">首页</div>
-      <span class="arrow">></span>
-      <div class="text-nav">后期开发</div>
-      <span class="arrow">></span>
-      <div class="text-nav">Python</div>
-      <span class="arrow">></span>
-      <div class="text-nav"><span class="text-decoration-nav">架构设计专项课程之异步化架构设计</span></div>
+    <ul class="level-section">
+      <li class="level-item">首页</li>
+      <span class="level-sign">></span>
+      <li class="level-item">后期开发</li>
+      <span class="level-sign">></span>
+      <li class="level-item">Python</li>
+      <span class="level-sign">></span>
+      <li class="level-item"><span class="level-item-more">架构设计专项课程之异步化架构设计</span></li>
+    </ul>
+    <div class="theme-section">
+      <img class="theme-img" src="./img/course-detail/main-image.png">
+      <div class="theme-text-container">
+        <p class="theme-title">架构设计专项课程之异步化架构设计</p>
+        <p class="theme-description">本次课程介绍了页面静态化技术的演进方案，帮助大家掌握又一项加薪利器。使用异步化的架构设计方式解决系统设计问题。</p>
+        <ul class="theme-list">
+          <li class="theme-list-item">课时数 : 2个课程/24课时</li>
+          <li class="theme-list-item">时长 : 3小时48分</li>
+          <li class="theme-list-item">学习人数 : 1026</li>
+        </ul>
+        <button class="theme-btn">
+          开始学习
+        </button>
+      </div>
     </div>
-    <div class="course-detail">
-      <div class="course-detail-img">
-        <img class="course-detail-img-location" src="./img/课程详情页_slices/主图.png">
-      </div>
-      <div class="course-detail-text-head">架构设计专项课程之异步化架构设计</div>
-      <div class="course-detail-text-main">本次课程介绍了页面静态化技术的演进方案，帮助大家掌握又一项加薪利器。使用异步化的架构设计方式解决系统设计问题。</div>
-      <div class="course-detail-text-foot">
-        <div class="course-period">课时数 : 2个课程/24课时</div>
-        <div class="course-time">时长 : 3小时48分</div>
-        <div class="course-number">学习人数 : 1026</div>
-      </div>
-      <button class="start-learning">
-        开始学习
-      </button>
+    <div class="catalog-sidebar-section">
       <div class="catalog-container">
-        <div class="catalog-text-container">
-          <div class="catalog-text-chapter">第一章 清洗文本信息</div>
+        <ul class="catalog-list">
+          <li class="catalog-list-item">第一章 清洗文本信息</li>
+          <li class="catalog-list-sub-item">1-1 30万条数据准备情况（02:02）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+          <li class="catalog-list-sub-item">1-2 yield生成器实现斐波那契数列（15:19）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+          <li class="catalog-list-sub-item">1-3 递归遍历读取30万新闻数据（10:30）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+          <li class="catalog-list-sub-item">1-4 高效读取30万新闻数据（14:41）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+          <li class="catalog-list-sub-item">1-5 正则表达式介绍与常见使用场景(1)（18:08）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+          <li class="catalog-list-sub-item">1-6 正则表达式清洗文本数据(2)（09:35）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+          <li class="catalog-list-sub-item sub-item-color">1-7 清洗HTML网页数据（12:29）
+            <img class="catalog-icon" src="./img/course-detail/blue-play.png">
+          </li>
+          <li class="catalog-list-sub-item">1-8 简繁字体转换（08:59）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+          <li class="catalog-list-sub-item">1-9 批量清洗30万新闻文本数据（12:12）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+          <li class="catalog-list-item catalog-list-item-more">第二章 文本特征提取</li>
+          <li class="catalog-list-sub-item catalog-list-sub-item-more">2-1 jieba分词精讲(1)（15:28）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+          <li class="catalog-list-sub-item catalog-list-sub-item-more">2-2 jieba分词精讲(2)（15:38）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+          <li class="catalog-list-sub-item catalog-list-sub-item-more">2-3 HanLP分词精讲（13:23）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+          <li class="catalog-list-sub-item catalog-list-sub-item-more">2-4 自定义去停用词（17:47）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+          <li class="catalog-list-sub-item catalog-list-sub-item-more">2-5 NLTK词频统计(1)（17:38）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+          <li class="catalog-list-sub-item catalog-list-sub-item-more">2-6 NLTK词频统计(2)（03:33）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+          <li class="catalog-list-sub-item catalog-list-sub-item-more">2-7 自定义选择高低词频（08:45）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+          <li class="catalog-list-sub-item catalog-list-sub-item-more">2-8 命名实体的提取（06:32）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+          <li class="catalog-list-sub-item catalog-list-sub-item-more">2-9 slearn计算多分类下的TFIDF（14:03）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+          <li class="catalog-list-sub-item catalog-list-sub-item-more">2-10 实战案例：30万新闻文本特征提取（11:06）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+          <li class="catalog-list-item catalog-list-item-more">第三章 文本特征提取</li>
+          <li class="catalog-list-sub-item catalog-list-sub-item-more">2-1 jieba分词精讲(1)（15:28）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+          <li class="catalog-list-sub-item catalog-list-sub-item-more">2-2 jieba分词精讲(2)（15:38）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+          <li class="catalog-list-sub-item catalog-list-sub-item-more">2-3 HanLP分词精讲（13:23）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+          <li class="catalog-list-sub-item catalog-list-sub-item-more">2-4 自定义去停用词（17:47）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+          <li class="catalog-list-sub-item catalog-list-sub-item-more">2-5 NLTK词频统计(1)（17:38）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+          <li class="catalog-list-sub-item catalog-list-sub-item-more">2-6 NLTK词频统计(2)（03:33）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+          <li class="catalog-list-sub-item catalog-list-sub-item-more">2-7 自定义选择高低词频（08:45）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+          <li class="catalog-list-sub-item catalog-list-sub-item-more">2-8 命名实体的提取（06:32）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+          <li class="catalog-list-sub-item catalog-list-sub-item-more">2-9 slearn计算多分类下的TFIDF（14:03）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+          <li class="catalog-list-sub-item catalog-list-sub-item-more">2-10 实战案例：30万新闻文本特征提取（11:06）
+            <img class="catalog-icon" src="./img/course-detail/grey-play.png">
+          </li>
+        </ul>
+      </div>
+      <div class="sidebar-top-section">
+        <div class="sidebar-top-container">
+          <p class="sidebar-top-title">课程背景 : </p>
+          <p class="sidebar-top-description">使用异步化的架构设计方式解决系统设计过程当中的效率及解耦问题。使用异步化的架构设计方式解决系统设计问题。</p>
+          <p class="sidebar-top-title">核心内容 : </p>
+          <p class="sidebar-top-description">使用异步化的架构设计方式解决系统设计过程当中的效率及解耦问题。使用异步化的架构设计方式解决系统设计问题。</p>
+          <p class="sidebar-top-title sidebar-top-title-more">难度 : <span class="sidebar-top-description">入门</span></p>
+          <p class="sidebar-top-title">适合人群 : </p>
+          <p class="sidebar-top-description">系统管理人员、系统开发人员、解决方案架构师、解决方案设计工程师</p>
         </div>
-        <div class="catalog-text-subsection">
-          <div class="catalog-text-subsection-container-one">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-subsection-container-one">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-subsection-container-one">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-subsection-container-one">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-subsection-container-one">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-subsection-container-one">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-subsection-container-one decoration">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (2).png"></div>
-          </div>
-          <div class="catalog-text-subsection-container-one">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-subsection-container-one">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-subsection-container-one">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-container">
-            <div class="catalog-text-chapter">第一章 清洗文本信息</div>
-          </div>
-          <div class="catalog-text-subsection-container">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-subsection-container">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-subsection-container">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-subsection-container">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-subsection-container">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-subsection-container">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-subsection-container">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-subsection-container">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-subsection-container">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-subsection-container">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-container">
-            <div class="catalog-text-chapter">第一章 清洗文本信息</div>
-          </div>
-          <div class="catalog-text-subsection-container">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-subsection-container">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-subsection-container">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-subsection-container">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-subsection-container">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-subsection-container">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-subsection-container">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-subsection-container">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-subsection-container">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
-          <div class="catalog-text-subsection-container">
-            <div class="catalog-text-subsection-left">1-1 30万条数据准备情况（02:02）</div>
-            <div class="catalog-text-subsection-right"><img class="icon-play" src="./img/课程详情页_slices/播放 (1).png"></div>
-          </div>
+      </div>
+      <div class="sidebar-bottom-section">
+        <p class="sidebar-bottom-title">相关课程</p>
+        <div class="sidebar-bottom-container">
+          <img class="sidebar-bottom-img" src="./img/course-detail/image.png">
+          <p class="sidebar-bottom-info">
+            微博热门话题系统架构设计
+          </p>
         </div>
-        <div class="text-left-top-container">
-          <div class="text-left-course">课程背景 : </div>
-          <div class="text-left-course-info">使用异步化的架构设计方式解决系统设计过程当中的效率及解耦问题。使用异步化的架构设计方式解决系统设计问题。</div>
-          <div class="text-left-core">核心内容 : </div>
-          <div class="text-left-core-info">使用异步化的架构设计方式解决系统设计过程当中的效率及解耦问题。使用异步化的架构设计方式解决系统设计问题。</div>
-          <div class="text-left-difficulty">难度 : <span class="sample">入门</span></div>
-          <div class="text-left-suit">适合人群 : </div>
-          <div class="text-left-suit-info">系统管理人员、系统开发人员、解决方案架构师、解决方案设计工程师</div>
+        <div class="sidebar-bottom-container">
+          <img class="sidebar-bottom-img" src="./img/course-detail/image.png">
+          <p class="sidebar-bottom-info">
+            微博热门话题系统架构设计
+          </p>
         </div>
-        <div class="text-left-bottom-container">
-          <div class="text-left-bottom-main">相关课程</div>
-          <div class="text-left-bottom-container-info">
-            <img class="text-left-bottom-img" src="./img/课程详情页_slices/image.png">
-            <div class="text-left-bottom-info">
-              微博热门话题系统架构设计
-            </div>
-          </div>
-          <div class="text-left-bottom-container-info">
-            <img class="text-left-bottom-img" src="./img/课程详情页_slices/image.png">
-            <div class="text-left-bottom-info">
-              微博热门话题系统架构设计
-            </div>
-          </div>
-          <div class="text-left-bottom-container-info">
-            <img class="text-left-bottom-img" src="./img/课程详情页_slices/image.png">
-            <div class="text-left-bottom-info">
-              微博热门话题系统架构设计
-            </div>
-          </div>
-          <div class="text-left-bottom-container-info">
-            <img class="text-left-bottom-img" src="./img/课程详情页_slices/image.png">
-            <div class="text-left-bottom-info">
-              微博热门话题系统架构设计
-            </div>
-          </div>
+        <div class="sidebar-bottom-container">
+          <img class="sidebar-bottom-img" src="./img/course-detail/image.png">
+          <p class="sidebar-bottom-info">
+            微博热门话题系统架构设计
+          </p>
+        </div>
+        <div class="sidebar-bottom-container">
+          <img class="sidebar-bottom-img" src="./img/course-detail/image.png">
+          <p class="sidebar-bottom-info">
+            微博热门话题系统架构设计
+          </p>
         </div>
       </div>
     </div>
   </div>
+  </div>
   <footer class="page-footer">
-    <div class="page-footer-container">
-      <div class="footer-text-container">
-        <div class="footer-text-left">
-          ©2015-2019 深圳信息职业技术学院
-        </div>
-        <div class="footer-text-right">
-          沪ICP备16009837号 京公网安备 10010802023648号
-        </div>
-      </div>
+    <div class="footer-container">
+      <p class="footer-content">
+        ©2015-2019 深圳信息职业技术学院
+      </p>
+      <p class="footer-content">
+        沪ICP备16009837号 京公网安备 10010802023648号
+      </p>
     </div>
   </footer>
 </body>
